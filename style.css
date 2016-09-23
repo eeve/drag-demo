@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#dragDiv1{
+	width: 100%;
+}
+#dragDiv2{
+	width: 50%;
+}
+
+.drag-box{
+	// min-height: 50px;
+	background: #eee;
+	margin: 5px;
+}
+
+.drag-title{
+	// height: 30px;
+	// line-height: 30px;
+	text-align: center;
+	font-size: 14px;
+	background: #ddd;
+	color: red;
+}
+
+#dragTable{
+	position: relative;
+	background: #f3f3f3;
+	height: 800px;
+	padding: 20px;
+}
+
+#body{
+	width: 200px;
+	height: 100px;
+	background: red;
+}
+
+.placeholder-box{
+	border: dashed 1px #aaa;
+	position: relative;
+	width: 198px;
+	height: 48px;
+	visibility: hidden;
+}
+
+.resize{
+	position: absolute;
+	right: 0;
+	bottom: 0px;
+	width: 10px;
+	height: 10px;
+	background: #111;
+	cursor: col-resize;
+}
+
+#test{
+	width: 500px;
+	height: 300px;
+	background: #dedede;
+}
